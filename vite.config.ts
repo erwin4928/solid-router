@@ -1,6 +1,7 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import solid from 'vite-plugin-solid'
+import dts from 'vite-plugin-dts'
 
 export default defineConfig((env) => {
   return {
@@ -19,6 +20,7 @@ export default defineConfig((env) => {
     },
     plugins: [
       solid(),
+      dts({ rollupTypes: true }),
     ],
   }
 })
