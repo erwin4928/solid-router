@@ -16,7 +16,6 @@ export default defineConfig((env) => {
         formats: ['es'],
         fileName: 'index',
       },
-      reportCompressedSize: false,
     },
     plugins: [
       solid(),
