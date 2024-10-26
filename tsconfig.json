@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*", "test/**/*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "allowSyntheticDefaultImports": true,
+    "types": ["vite/client"]
+  }
+}
