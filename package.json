@@ -1,6 +1,7 @@
 {
   "name": "@erwin4928/solid-router",
   "type": "module",
+  "main": "src/index.ts",
   "module": "src/index.ts",
   "scripts": {
     "dev": "vite dev",
